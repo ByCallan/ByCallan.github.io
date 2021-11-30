@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/pelicula.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.contenedor-from{
+    position: relative;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+    margin: 48px auto;
+    color: #fff;
+    border-radius: 5px;
+    /*padding: 40px;*/
+}
+
+.contenedor-from .toggle{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.contenedor-from .toggle span{
+    letter-spacing: 1px;
+}
+
+.contenedor-from .toggle :hover{
+    border-top: 2px solid #0075d0;
+    border-bottom: 2px solid #0075d0;
+}    
+
+.contenedor-from h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.contenedor-from input[type="text"],
+.contenedor-from input[type="password"],
+.contenedor-from input[type="email"]{
+    outline: none;
+    background: #3d030d;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #da160f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    transition: all .5s ease;
+}
+
+.contenedor-from input[type="text"]:focus,
+.contenedor-from input[type="password"]:focus,
+.contenedor-from input[type="email"]:focus{
+    border-bottom: 2px solid #1a91ec;
+   
+}
+
+.contenedor-from input[type="button"]{
+     background: #b60404;   
+     color: #fff;
+     border: none;
+     width: 100%;
+     padding: 10px 0;
+     font-weight: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 1px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: all .5s ease;
+}
+
+.contenedor-from input[type="button"]:hover{
+    background: #1a91ec;
+}
+.contenedor-from input[type="submit"]{
+    background: #b60404;   
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-from input[type="submit"]:hover{
+   background: #1a91ec;
+}
+
+.contenedor-from .reset-password {
+    background: #0075d0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contenedor-from .reset-password a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-from .formulario{
+    padding: 40px;
+    display: none;
+
+}
+
+.contenedor-from .formulario:nth-child(2){
+    display: block;
+}

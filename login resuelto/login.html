@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login y registrar</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor-from">
+        <div class="toggle">
+            <span>crear cuenta</span>
+        </div>
+
+        <div class="formulario">
+            <h2>Iniciar sesion</h2>
+            <form action="#">
+                <input  id="Usu" type="text" placeholder="Usuaraio" required name="txtusuario">
+                <input id="Con" type="password" placeholder="Contraseña" required name="txtcontraseña">
+                <input id="Sub" type="button" value="Iniciar sesion">
+            </form>
+        </div>
+        <div id="reges" class="formulario">
+            <h2>Crear tu cuenta</h2>
+            <form action="#" id="frmusuario" onsubmit="nuevo(this)">
+                <input id="User" type="text" placeholder="Usuaraio" required name="txtUSU">
+                <input id="Passw" type="password" placeholder="Contraseña" required name="txtcontra"> 
+                <input id="Corre" type="email" placeholder="Correo electronico" required name="txtcorreoelec">
+                <input id="Celu" type="text" placeholder="Celular" name="txtcelular">
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+
+        <div class="reset-password">
+            <a href="#">ovide mi Contraseña?</a>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login_registro.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+</html>
